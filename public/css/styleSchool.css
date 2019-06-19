@@ -1,0 +1,38 @@
+body {
+    font-family: "Gill Sans","Gill Sans MT"; !important;
+}
+
+.bg-white {
+    background-color: #005584; !important;
+    color: white; !important;
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: #005584;
+}
+
+.nav-item{
+    color: white;
+}
+.navbar-nav{
+    background-color: #005584;
+}
+
+.navbar-nav, navn-item, nav-link, dropdown-menu {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.nav-item dropdown show {
+    color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
