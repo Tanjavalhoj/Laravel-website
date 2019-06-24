@@ -21,4 +21,10 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/rapportSick', 'RapportSickController@index')->name('rapportSick');
 
+/* URL og handler funktion*/
+
+/*Routes er en 'dictionary' opslags bog, hvor den siger, 'når dette sker (/rapportSick), skal denne (RapportSickController@getST) funktion udføres'*/
+
 Route::post('/rapportSick', 'RapportSickController@getST')->name('rapportSick');
+
+Route::get('/teachers', 'TeacherController@index');

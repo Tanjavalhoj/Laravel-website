@@ -61,6 +61,15 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            /* welcome page*/
+            .welcomeText {
+                padding: 2px 300px;
+                color: #005584;
+            }
+            .welcomeHeader {
+                color: #005584;
+            }
         </style>
     </head>
     <body>
@@ -87,15 +96,19 @@
                     <img src="{{ asset('image/logo.png') }}" id="logo" name="Vordingborg Kommune" style="width: 300px; height: 100px;">
                 </div>
 
-                <div class="row">
+                <div class="row welcomeHeader">
                     <h1>Velkomme til Notifieren</h1>
 
-                    <div class="col-sm-4"></div>
                     <div class="col-sm-4">
+
+                    </div>
+                    <div class="col-sm-4 welcomeText">
                         <p>Notifieren er en side, hvor du kan sende notifikationer ud til lærere, elever og vikare. På denne måde kan du hurtigere fortælle hvis en time er aflyst, eller sende en forspørgsel ud, at der er brug for en vikar.</p>
 
                     </div>
-                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+
+                    </div>
 
                 </div>
 
